@@ -61,7 +61,7 @@ If I get a requirement I am happy to log beyond 'something failed' and here was 
 
 # Setup
 I used laravel sail (docker to set this up because that is what I had laying around on my home machine)
-An example env file with my mailtrap and current db config are setting in the setup folder. I have emailed the mailtrap username and password values with the link to this repo
+An example env file with my mailtrap and current db config are setting in the setup folder. I have emailed the mailtrap username and password values with the link to this repo, just add these to the .env once you have copied it in
 Other than a clean redis, db and mailtrap config you just need to make sure the app_env is set to local if you want to 
 use the test harness and the API key and secret should be set (I just used the laravel encryption secret as the secret and hard coded an API key in the env)
 
